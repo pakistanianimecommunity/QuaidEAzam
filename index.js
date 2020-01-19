@@ -69,4 +69,4 @@ client.on('message', msg=>{
         
     }
 })
-client.login(token);
+client.login(process.env.token);
